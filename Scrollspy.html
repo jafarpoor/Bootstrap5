@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Scrollspy</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">First</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                    </ul>
+              
+                  </li>
+                </ul>
+              </nav>
+              <div style="position: relative; overflow: auto; height: 200px;" data-bs-offset="0" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                <h4 id="scrollspyHeading1">First heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nihil debitis aspernatur provident tenetur aliquam perferendis. Voluptate, cumque voluptatum voluptas porro tenetur distinctio. Repellendus nam aperiam dicta doloribus omnis distinctio.</p>
+                <h4 id="scrollspyHeading2">Second heading</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quidem corporis amet error et? Nisi nulla, laboriosam incidunt dolor, exercitationem fugit voluptas modi velit, quisquam officia architecto optio similique accusamus.</p>
+                <h4 id="scrollspyHeading3">Third heading</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dignissimos accusantium sit asperiores. Totam veritatis, labore, ut recusandae illum perspiciatis magni a culpa amet eaque sunt voluptatum officia blanditiis delectus.</p>
+                <h4 id="scrollspyHeading4">Fourth heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veniam quam quia minima recusandae voluptatem magni similique illo inventore iure, nostrum consectetur eligendi sunt nihil ipsam corporis quaerat odit ad.</p>
+                <h4 id="scrollspyHeading5">Fifth heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, illum voluptas facilis expedita reiciendis et esse assumenda optio cum consectetur dolorem facere ad nobis explicabo quidem itaque veritatis quaerat sint.</p>
+              </div>
+        </div>
+       
+    </div>
+    
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
