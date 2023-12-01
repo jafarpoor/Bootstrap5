@@ -5,3 +5,13 @@ src: url(fonts/Nazanin.ttf);
 body{
     font-family: "Nazanin" !important;
 }
+
+.icon{
+    padding: 15px;
+    color:#06defd;
+    background-color: #ebeafb;
+    border-radius: 10px;
+    display: inline-flex;
+    
+
+}
